@@ -1,0 +1,16 @@
+name: dam-siting
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - python>=3.8
+  - pip
+
+  - python-dotenv
+
+  - numpy
+  - pandas
+  - geopandas==0.9.0
+  - yaml
+  - matplotlib==3.3.2
